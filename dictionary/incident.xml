@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="all_tables.query_hints=true,email_client=true,hasLabels=true,hasWorkflow=true,live_feed=true" audit="true" db_object_id="5e935fe8dc9212104f34465061b06ade" extends="task" label="Incident" max_length="40" name="incident" text_index="true" type="collection">
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="New Price" max_length="20" name="x_58872_needit_u_price_2" type="price"/>
+        <element attributes="edge_encryption_enabled=true" label="New Date/Time" max_length="40" name="x_58872_needit_u_glide_date_time_1" type="glide_date_time"/>
+        <element label="New Due Date" max_length="40" name="x_58872_needit_u_due_date_1" type="due_date"/>
+    </element>
+</database>
